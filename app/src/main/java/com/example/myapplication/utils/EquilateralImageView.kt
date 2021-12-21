@@ -10,7 +10,7 @@ class EquilateralImageView @JvmOverloads constructor(
     defStyleAttr: Int = 0
 ) : AppCompatImageView(context, attrs, defStyleAttr) {
 
-    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) {
+    override fun onMeasure(widthMeasureSpec: Int, heightMeasureSpec: Int) { //равностороний квадрат
         super.onMeasure(widthMeasureSpec, widthMeasureSpec)
     }
 }
