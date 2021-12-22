@@ -13,10 +13,10 @@ android {
         it.buildConfigField "String", "NASA_API_KEY", nasaApiKey
     }
 
+
     viewBinding {
         enabled = true
     }
-
     defaultConfig {
         applicationId "com.example.myapplication"
         minSdk 21
@@ -40,6 +40,8 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+    compileSdkVersion 32
+    buildToolsVersion '32.0.0'
 }
 
 dependencies {
